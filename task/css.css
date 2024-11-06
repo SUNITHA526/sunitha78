@@ -1,0 +1,66 @@
+/* body{
+    background-color: black;
+} */
+@media screen and (min-width:400px) and (max-width:768px){
+    body{
+        background-color: lightcoral;
+    }
+    p{
+        font-size: 3rem;
+    }
+    img{
+        border-radius: 20px;
+        width: 50vw;
+        
+    }  
+}
+@media screen and (min-width:769px) and (max-width:1024){
+    body{
+        background-color: blue;  
+    }
+    p{
+        font-size: 7rem;
+    }
+    img{
+        border-radius: 15px;
+        width: 40vw;
+    }
+    
+}
+@media screen and  (min-width:1025px) and (max-width:1440px){
+    body{
+        background-color: lightgreen;  
+    } 
+    p{
+        font-size: 2rem;
+    }
+    img{
+        border-radius: 30px;
+        width: 50vw;
+    }
+    .suni{
+        display: flex;
+        flex-direction: row;
+    }
+}
+@media screen and (min-width:1441px) and (max-width:2560px){
+    body{
+        background-color: aquamarine;
+    }
+    p{
+        font-size: 10rem;
+    }
+    img{
+        border-radius: 25px;
+        width: 15vw;
+    }
+    .sita{
+        display: flex;
+        flex-direction: row;
+    }
+    .suni{
+        display: flex;
+        gap: 10px;
+    }
+
+}
